@@ -17,11 +17,13 @@ The exported method is "extendString()."  This is the only method exported from 
 
 ## Parameters:
 This accepts four parameters.
+```
 @param {string | string[]} stringOrStringArray Either a string or an array of strings to be concatenated
 @param {string | undefined} stringToExtend Optional.  If this is passed as an argument, it will be the first string to which stringOrStringArray is appended
 @param {string | undefined} delimiter: Optional.  If this is passed as an argument, all strings given as parameters will be concatenated with this as the delimiter
 @param {boolean | undefined} useJoin: Optional.  Default is false.  If this is set to true, Array.prototype.join will be used, which is slower on Node's Chrome V8 engine.  However, if this script is being used outside of Node, or in older versions, this may be useful.
 @returns {string} The concatenated string from the strings passed as arguments.
+```
 
 ## Usage
 ## Example 1
