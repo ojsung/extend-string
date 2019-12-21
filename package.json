@@ -1,0 +1,25 @@
+{
+  "name": "extend-string",
+  "version": "1.0.0",
+  "description": "Chooses the fastest way to concatenate a string array to a string or to itself, based on the contents of th e string array",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojsung/extend-string.git"
+  },
+  "keywords": [
+    "string",
+    "array",
+    "concatenate",
+    "concatenation"
+  ],
+  "author": "ojsung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojsung/extend-string/issues"
+  },
+  "homepage": "https://github.com/ojsung/extend-string#readme"
+}
