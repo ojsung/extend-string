@@ -1,7 +1,7 @@
 export as namespace extendStringLib
 export function extendString(
   stringOrStringArray: string | string[],
-  stringToExtend?: string | null,
+  stringToExtend?: string,
   delimiter?: string,
-  mode: "join" | "loop" | "buffer"
+  useJoin?: boolean
 ): string
