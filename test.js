@@ -37,7 +37,7 @@ function test() {
   console.timeEnd('Test 3: For-loops with String Concatenation')
   console.time('Test 4: My script for concatenating strings')
   for (let i = 0, j = 100000; i < j; ++i) {
-    let word = extendString(arrayOfWords, '', delimiter, false)
+    let word = extendString(arrayOfWords, null, delimiter)
   }
   console.timeEnd('Test 4: My script for concatenating strings')
 }

@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ojsung/extend-string/issues"
   },
-  "homepage": "https://github.com/ojsung/extend-string#readme"
+  "homepage": "https://github.com/ojsung/extend-string#readme",
+  "devDependencies": {
+    "@types/node": "13.1.0"
+  }
 }
